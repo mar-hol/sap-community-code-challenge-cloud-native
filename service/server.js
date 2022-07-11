@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/greeting/:communityID', (req, res) => {
-  res.send(`Hey ${req.params.communityID}, really nice seeing you here! 🙂`);
+  res.send(`Hey ${req.params.communityID}, really nice seeing you here! 🙂🚀`);
 });
 
 const PORT = process.env.PORT || 8080;
